@@ -6,10 +6,6 @@
     background-size: cover;
     margin: auto;
 }
-h1 {
-  color: purple;
-  font-size: 40px;
-}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -22,7 +18,59 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin-top: 45px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: rgba(128, 128, 128);
+}
+
+.grid-container>div {
+  background-color: rgba(128, 128, 128);
+  text-align: center;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 500px;
+}
+
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 500px;
+}
+
+.item3 {
+  grid-row-start: 3;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 500px;
+}
+.item4 {
+  grid-row-start: 4;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 500px;
+}
+.contact {
+  float: right;
+}
+
+.other {
+  float: left;
 }
 article,
 aside,
@@ -72,7 +120,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
+  margin-left: 40px;
   font-size: 2em;
 }
 mark {
@@ -1098,7 +1146,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: rgba(128, 128, 128);
 }
 input,
 button,
@@ -1281,6 +1329,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  margin-top: 70px;
 }
 h2,
 .h2 {
