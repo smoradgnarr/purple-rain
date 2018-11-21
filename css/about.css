@@ -10,6 +10,11 @@ h1 {
   min-height: 30px !important;
   float: right;
 }
+
+li:hover {
+  background-color: gray;
+}
+
 body {
   text-align: center;
   margin: 0;
@@ -76,6 +81,7 @@ body {
   grid-column-end: 2;
   width: 500px;
 }
+
 .item4 {
   grid-row-start: 2;
   grid-row-start: 2;
@@ -83,6 +89,7 @@ body {
   grid-column-end: 2;
   width: 500px;
 }
+
 .img-circle {
   height: 200px;
   width: 200px;
