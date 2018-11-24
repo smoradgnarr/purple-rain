@@ -1,7 +1,6 @@
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -22,8 +21,8 @@ h1 {
 h2 {
   font-family: 'Kalam', cursive;
   font-size: 30px;
-
 }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -45,6 +44,17 @@ li:hover {
   background-color: gray !important;
 }
 
+.brand-bar {
+ float: left;
+ height: 45px;
+ padding: 15px 15px;
+ font-family: 'Gloria Hallelujah', cursive;
+ font-size: 25px;
+ font-weight: bold;
+ color: white;
+ line-height: 20px;
+}
+
 .transbox-header {
     margin-top: 100px;
     margin-bottom: 200px;
@@ -64,5 +74,16 @@ li:hover {
 
 .circles {
   align-items: center;
-  margin: 200px;
+  margin-top: 320px;
+  margin-bottom: 200px;
+}
+
+.social {
+  align-items: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
