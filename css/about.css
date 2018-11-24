@@ -1,9 +1,9 @@
 h1 {
-      color: black;
-      font-family: 'Julius Sans One', sans-serif;
-      padding: 10px 10px 10px 10px;
-      margin: 4%;
-      font-size: 80px;
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin: 4%;
+  font-size: 80px;
 }
 
 .navbar-nav {
@@ -18,43 +18,41 @@ li:hover {
 body {
   text-align: center;
   margin: 0;
-  background-size: 100% 170%;
+  background-size: 100% 110%;
   background-image: url("../about_bg1.jpg");
   background-repeat: no-repeat;
 }
 
-.grid-container0 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  background-color: rgba(255, 255, 255, 0.6);
-  margin-left: 50px;
-  margin-top: 90px;
-  padding-right: 20px;
-  padding-left: 29px;
-  float: right;
-}
 
 .grid-container1 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 5px;
   background-color: rgba(255, 255, 255, 0.6);
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 70px;
   padding: 5px;
-  float: left;
+  float: right;
 }
 
-.grid-container2 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+.item0 {
   background-color: rgba(255, 255, 255, 0.6);
-  margin-right: 50px;
-  margin-top: 50px;
-  padding: 5px;
   float: left;
+  margin-left: 50px;
+  margin-top: 70px;
+  white-space: nowrap;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 100px;
+}
+
+p.info {
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
 }
 
 .item1 {
@@ -94,6 +92,12 @@ body {
   width: 200px;
   background-color: white;
   border-radius: 50%;
+}
+
+.names {
+  font-weight: bold;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
 }
 
 footer {

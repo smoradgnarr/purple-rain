@@ -16,9 +16,14 @@ li:hover {
 body {
   margin: 0;
   text-align: center;
-  background-size: 100% 189%;
+  background-size: 100% 179%;
   background-image: url("../contact_bg1.jpg");
   background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
 }
 
 .grid-container {
