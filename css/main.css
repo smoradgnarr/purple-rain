@@ -11,14 +11,22 @@ html {
 body {
   background-color: transparent;
   overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background: rgba(255,255,255,.3);
+  text-align: center;
 }
 
 h1 {
     color: black;
     font-family: 'Gloria Hallelujah', cursive;
-    padding: 50px 20px 0px 0px;
+    padding: 70px 50px 0px 0px;
     font-size: 70px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 h2 {
@@ -26,6 +34,7 @@ h2 {
   font-size: 30px;
   color: #202020;
   text-align: center;
+  font-weight: 500;
 }
 
 /* Navbar */
@@ -75,7 +84,7 @@ li:hover {
   background-color: black;
   text-align: center;
   color: white;
-  z-index: -1;
+  z-index: 1;
   padding: 10px 100px 25px 100px;
 }
 
@@ -87,7 +96,7 @@ li:hover {
 .img-circle {
   height: 200px;
   width: 200px;
-  margin: 0px 80px 0px 80px;
+  margin: 0px 80px 0px 70px;
   background-color: white;
   border-radius: 50%;
   opacity: 0.8;
@@ -95,14 +104,14 @@ li:hover {
 
 .circles {
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .social {
   align-items: left;
   margin-top: 35px;
   margin-bottom: 30px;
-  margin-left: 20px;
+  margin-right: 40px;
 }
 
 .social ul {
@@ -119,9 +128,10 @@ li:hover {
 .social ul li a i.fab.fa-facebook-f, .social ul li a i.fab.fa-twitter {
     height: 30px;
     width: 30px;
-    border: solid 2px white;
+    border: solid 2px #404040;
     line-height: 29px;
     transition: 0.5s all;
+    background-color: #9F9B9B;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
