@@ -1,5 +1,5 @@
 html {
-  background: url("../home_bg1_ed_2.jpg") no-repeat center center fixed;
+  background: url("../home_bg1.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -104,7 +104,7 @@ li:hover {
 
 .circles {
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .social {
