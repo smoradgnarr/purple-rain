@@ -246,9 +246,8 @@ opacity: 1;
 
 .footer p {
   margin: 0;
-  font-family: 'Kalam'
+  font-family: 'Kalam', cursive;
 }
-
 
 * {
   -webkit-box-sizing: border-box;
