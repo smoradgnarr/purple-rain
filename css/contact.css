@@ -8,6 +8,12 @@ html {
   -o-background-size: cover;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        background-size: contain;
+    }
+}
+
 /* Navbar */
 
 .navbar-nav > li > a {
@@ -58,6 +64,7 @@ body {
   background: rgba(255,255,255,.2);
   text-align: center;
 }
+
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 40px;
@@ -129,6 +136,11 @@ h1 {
   }
 }
 /* Footer */
+@media screen and (max-width: 800px) {
+    .footer {
+        height: 45px !important;
+    }
+}
 
 .footer {
   position: fixed;

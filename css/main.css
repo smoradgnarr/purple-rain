@@ -21,6 +21,12 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        background-size: contain;
+    }
+}
+
 h1 {
     color: black;
     font-family: 'Gloria Hallelujah', cursive;
@@ -230,6 +236,12 @@ opacity: 1;
 }
 
 /* Footer */
+
+@media screen and (max-width: 800px) {
+    .footer {
+        height: 45px !important;
+    }
+}
 
 .footer {
   position: fixed;
