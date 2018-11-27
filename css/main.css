@@ -50,7 +50,7 @@ h3 {
   color: #202020;
   text-align: center;
   font-weight: 500;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 /* Navbar */
 
@@ -127,7 +127,7 @@ li:hover {
 
 .find_us {
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 }
@@ -146,7 +146,7 @@ li:hover {
 
 .social {
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .social ul {
