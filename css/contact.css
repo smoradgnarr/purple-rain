@@ -134,6 +134,9 @@ h1 {
     width: 100%;
     margin-top: 200px;
   }
+  .grid-container>div {
+    width: 100% !important;
+  }
 }
 /* Footer */
 @media screen and (max-width: 800px) {
