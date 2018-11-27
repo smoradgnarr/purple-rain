@@ -25,13 +25,20 @@ h1 {
     color: black;
     font-family: 'Gloria Hallelujah', cursive;
     padding: 70px 50px 0px 0px;
-    font-size: 70px;
+    font-size: 5vw;
     font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    width: 100%;
+    margin-top: 150px;
+  }
 }
 
 h2 {
   font-family: 'Kalam', cursive;
-  font-size: 30px;
+  font-size: 2.4vw;
   color: #202020;
   text-align: center;
   font-weight: 500;
@@ -39,7 +46,7 @@ h2 {
 
 h3 {
   font-family: 'Kalam', cursive;
-  font-size: 27px;
+  font-size: 2vw;
   color: #202020;
   text-align: center;
   font-weight: 500;
@@ -98,11 +105,43 @@ li:hover {
   margin-top: 50px;
 }
 
+@media screen and (max-width:1500px) {
+  .circles {
+    width: 100%;
+  }
+  .img-circle {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width:800px) {
+  .circles {
+    width: 100%;
+  }
+  .img-circle {
+    height: 50px;
+    width: 50px;
+  }
+}
 /* social */
 
 .find_us {
   align-items: center;
   margin-top: 50px;
+}
+
+}
+@media screen and (max-width:800px) {
+  .find_us {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+  .social {
+    margin-top: 2%;
+    margin-bottom: 0;
+    width: 100%;
+  }
 }
 
 .social {
